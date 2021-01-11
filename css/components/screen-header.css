@@ -11,6 +11,26 @@
     font-weight: 600;
 }
 
+.screen-header__icons {
+    display: flex;
+}
+
 .screen-header__icons span {
     margin-left: 25px;
+}
+
+.cog-icon {
+    position: relative;
+}
+
+.cog-icon-dot {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
 }
